@@ -1,0 +1,57 @@
+.btn{
+    margin: 10px;
+    font-size: xx-large;
+    width:200px;
+    background-color: red;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    max-height: 80px;
+    font-size: medium;
+   
+   
+   
+    
+}
+
+p{
+    font-size: xx-large;
+    background-color:white;
+}
+
+img{
+    border-style:solid;
+    border-width: 5px;
+    border-color: black;
+    display: block;
+    margin: auto;
+    width:50%;
+   
+}
+
+.flex-land{
+   
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+
+
+.content{
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: lavender;
+}
+
+.img-contsiner{
+    background: url('https://images.pexels.com/photos/14518445/pexels-photo-14518445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

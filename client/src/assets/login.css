@@ -1,0 +1,181 @@
+
+
+
+.container2{
+    background-image:url("https://assets.nflxext.com/ffe/siteui/vlv3/dace47b4-a5cb-4368-80fe-c26f3e77d540/f5b52435-458f-498f-9d1d-ccd4f1af9913/IN-en-20231023-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    height: 100vh;
+    
+}
+
+
+.wrapper{
+    display :block;
+    width: fit-content;
+    border-style: solid;
+    border-width: 30px;
+    border-color: black;
+    width:25%;
+  
+    margin-top: 200px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+    
+  
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-left: 20px;
+    /* margin-right: auto; */
+    
+}
+
+.label{
+    margin: 10px;
+    display: inline;
+    width:25%;
+    font-weight: bold
+   
+}
+
+.label >h1 {
+    background-color:;
+    color: black;
+    display: inline;
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin: 10px;
+}
+input{
+    height:50px;
+    display :inline;
+    font-size: x-large;
+    
+    width: 75%;
+    margin: 10px;
+   
+}
+.bbb{
+    display:flex;
+    justify-content: center;
+}
+    
+
+
+
+.bbb.butt{
+    background-color:gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    margin:10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    border-color: black;
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .container2{
+        background-image:url("https://assets.nflxext.com/ffe/siteui/vlv3/dace47b4-a5cb-4368-80fe-c26f3e77d540/f5b52435-458f-498f-9d1d-ccd4f1af9913/IN-en-20231023-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+        height: 100vh;
+        
+    }
+    
+    
+    .wrapper{
+        display :block;
+        width: fit-content;
+        border-style: solid;
+        border-width: 30px;
+        border-color: black;
+        width:60%;
+      
+        margin-top: 200px;
+       
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    
+        
+      
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        height: 30%;
+    }
+    .button{
+        margin-left: 20px;
+        /* margin-right: auto; */
+        
+    }
+    
+    .label{
+        margin: 10px;
+        display: inline;
+        width:25%;
+        font-weight: bold;
+        font-size:small;
+        text-align: end;
+       
+    }
+    
+   
+    
+    .row{
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+        margin: 10px;
+    }
+    input{
+        height:100%;
+        display :inline;
+        font-size: xx-small;
+        
+        width: 75%;
+        margin:10px;
+        margin-right: 2px;
+       
+    }
+    .bbb{
+        display:flex;
+        justify-content: center;
+    }
+        
+    
+    
+    
+    .bbb.butt{
+        background-color:gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .button{
+        margin:10px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: large;
+        border-color: black;
+        background-color: red;
+        color: white;
+    }
+  }
