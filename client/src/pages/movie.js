@@ -45,11 +45,22 @@ const Movie = () => {
 
  else{
     return<div className='movie'><h1>{movie.Title}</h1>
-    <div className="navbar">
-    <button onClick={()=>{navigate('/verify')}}>HOME</button>
+
+<div className="navbar">
+  
+    <button onClick={()=>{navigate('/')}}>HOME</button>
     <button onClick={logout}>LOG-OUT</button>
-    <div className='user-holder'><div className='user'>{user.name?user.name:'cant find name'}<button onClick={showbutton}><FaArrowDown/></button></div></div>
-    </div >
+    <div className='user-holder'><div className='user'>{user.name?user.name:'cant find name'}<button onClick={showbutton}><FaArrowDown/></button></div>
+    
+    <div className="temp"> <div><button onClick={()=>{navigate('/update')}}>update</button></div>
+    <div><button  onClick={()=>{deleteuser(user.email)}}>delete</button></div></div>
+   </div>
+    
+    
+
+  </div>
+
+    
         <div className='container'><img className='img' src={movie.Poster}  onMouseEnter={enter} onMouseLeave={exit}></img><button onClick={showvideo}className='btn' id='button'><FaPlay/></button></div>
         <video  src='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'  width="750" height="500" controls></video>
         <div><h1>cast:</h1>{movie.Actors}</div>
