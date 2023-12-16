@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route path='/' element={<div>
         <h1>hello</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem incidunt inventore odit facere hic voluptate consequatur ut delectus voluptas, dolore nesciunt nisi omnis error ad quisquam dolorum id assumenda minima, quo, cumque harum sapiente magni. Repellat fugit dolores, reiciendis corrupti odit repudiandae perferendis similique ab minus atque incidunt neque tempore iste vitae explicabo quia modi suscipit nemo ullam totam eos aperiam officia. Ipsum, molestias architecto. Architecto cum rem, temporibus laborum iure sapiente sed quidem. Sint eum nulla repudiandae suscipit est quidem asperiores, officiis quo reprehenderit, optio sunt, rerum ab incidunt vitae! Temporibus, quo. Quibusdam similique nemo delectus fugiat obcaecati consequuntur.</p>
+        <p>Thank you for choosing this as your go-to destination for cinematic bliss. Get ready to escape reality and dive into a world of cinematic wonders!</p>
          <div> <Outlet /></div></div>}>
         
         <Route path='verify'  element={<Verify/>}></Route>
